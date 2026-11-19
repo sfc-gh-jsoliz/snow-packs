@@ -359,6 +359,31 @@
     "updated": "2026-11"
   },
   {
+    "id": "auto-finance-self-service",
+    "title": "Auto Finance Self-Service Analytics",
+    "summary": "Help auto lending teams answer everyday questions in plain English from one governed semantic layer, and see which overlapping dashboards that layer already covers.",
+    "industry": "Banking",
+    "function": "Operations",
+    "outcome": "serve-clients",
+    "features": ["Semantic Views", "Cortex Analyst", "Cortex Agents", "Cortex Search", "Cortex AI_EMBED", "Cortex AI_COMPLETE"],
+    "tags": ["auto finance", "auto lending", "dealer", "dashboard rationalization", "self-service analytics", "verified queries", "BI consolidation"],
+    "setup": "local",
+    "images": [
+      { "src": "assets/packs/auto-finance-self-service-1.jpg", "alt": "Overview: 300 dashboards, 40% near-duplicates and 80% covered by the semantic view, with October 2026 lending KPIs and a funded-volume trend" },
+      { "src": "assets/packs/auto-finance-self-service-2.jpg", "alt": "Ask: funded volume by region from Cortex Analyst via a Cortex Agent, with a check that it matches the Regional Volume Summary dashboard" },
+      { "src": "assets/packs/auto-finance-self-service-3.jpg", "alt": "Coverage map: AI_EMBED similarity groups dashboard copies under 12 core views, with coverage status from the semantic view" },
+      { "src": "assets/packs/auto-finance-self-service-4.jpg", "alt": "Usage heat map and a retire queue where a person approves or keeps each near-duplicate dashboard with a note" },
+      { "src": "assets/packs/auto-finance-self-service-5.jpg", "alt": "Accuracy scorecard: 11 questions through Cortex Analyst compared with legacy dashboard queries, pass rate by run" },
+      { "src": "assets/packs/auto-finance-self-service-6.jpg", "alt": "Dealer drill-down: funnel, decline reasons, used-vehicle LTV trend, and an AI_COMPLETE narrative for the relationship manager" },
+      { "src": "assets/packs/auto-finance-self-service-7.jpg", "alt": "Semantic model browser: governed metric definitions, owners, synonyms, and verified queries" }
+    ],
+    "pagesUrl": "https://sfc-gh-ooral.github.io/sfguide-auto-finance-self-service/",
+    "demoUrl": "https://sfc-gh-ooral.github.io/sfguide-auto-finance-self-service/try/",
+    "repoUrl": "https://github.com/sfc-gh-ooral/sfguide-auto-finance-self-service",
+    "author": "Oz Oral",
+    "updated": "2026-11"
+  },
+  {
     "id": "account-takeover-detection",
     "title": "Account Takeover Detection",
     "summary": "A planned investigator view that connects identity, session, and transaction signals to help analysts spot cyber-enabled account takeover.",
