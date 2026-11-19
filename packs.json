@@ -451,5 +451,280 @@
     "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-verified-bank-research",
     "author": "Javier Soliz",
     "updated": "2026-11"
+  },
+  {
+    "id": "cross-border-fx",
+    "title": "Cross-Border & FX",
+    "summary": "Analyze cross-border corridor performance \u2014 volume, FX margin, and PnL by currency pair \u2014 with a grounded, verified summary. The demo ships synthetic FX; connect a paid FX feed to go live.",
+    "industry": "Payments",
+    "function": "Finance",
+    "outcome": "manage-risk",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "cross-border",
+      "FX",
+      "currency corridors",
+      "margin",
+      "PnL"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/cross-border-fx-1.jpg",
+        "alt": "Corridor performance table by currency pair"
+      },
+      {
+        "src": "assets/packs/cross-border-fx-2.jpg",
+        "alt": "Landing guide for the Cross-Border FX pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-cross-border-fx/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-cross-border-fx/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-cross-border-fx",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "dispute-intelligence",
+    "title": "Chargeback & Dispute Intelligence",
+    "summary": "Explain holiday chargeback spikes by reason code and network, quantify friendly fraud and win rates, and cross-reference internal disputes against the real CFPB consumer-complaint benchmark to prioritize remediation.",
+    "industry": "Payments",
+    "function": "Risk",
+    "outcome": "manage-risk",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "chargebacks",
+      "disputes",
+      "reason codes",
+      "friendly fraud",
+      "win rate",
+      "CFPB"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/dispute-intelligence-1.jpg",
+        "alt": "Dispute table by reason-code category with CFPB benchmark"
+      },
+      {
+        "src": "assets/packs/dispute-intelligence-2.jpg",
+        "alt": "Landing guide for the Dispute Intelligence pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-dispute-intelligence/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-dispute-intelligence/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-dispute-intelligence",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "macro-stress-testing",
+    "title": "Macro Stress Testing",
+    "summary": "Quantify how holiday payment volume and portfolio health move with the macro backdrop \u2014 CPI, unemployment, Fed funds, consumer sentiment \u2014 and run what-if stress scenarios on approvals, delinquency, and charge-offs.",
+    "industry": "Payments",
+    "function": "Risk",
+    "outcome": "manage-risk",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "stress testing",
+      "macro indicators",
+      "delinquency",
+      "charge-off",
+      "what-if",
+      "sensitivity"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/macro-stress-testing-1.jpg",
+        "alt": "Portfolio stress table with macro backdrop and what-if sliders"
+      },
+      {
+        "src": "assets/packs/macro-stress-testing-2.jpg",
+        "alt": "Landing guide for the Macro Stress pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-macro-stress-testing/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-macro-stress-testing/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-macro-stress-testing",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "market-share-benchmarking",
+    "title": "Market Share & Vertical Benchmarking",
+    "summary": "Benchmark a payments processor's processed volume by merchant category against real US Census retail-sales data to see where it is gaining or losing share \u2014 in basis points, with a grounded note and a verifier that refuses unsupported claims.",
+    "industry": "Payments",
+    "function": "Sales",
+    "outcome": "serve-clients",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "market share",
+      "merchant category",
+      "benchmarking",
+      "Census retail sales",
+      "vertical analysis"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/market-share-benchmarking-1.jpg",
+        "alt": "Gallery of share-benchmark notes by merchant category"
+      },
+      {
+        "src": "assets/packs/market-share-benchmarking-2.jpg",
+        "alt": "Landing guide for the Market Share pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-market-share-benchmarking/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-market-share-benchmarking/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-market-share-benchmarking",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "merchant-attrition",
+    "title": "Merchant Attrition Early-Warning",
+    "summary": "Spot merchants at risk of churning before they leave, using monthly volume decay and net-revenue-retention signals set against real US Census category demand, with a prioritized save-list and a grounded, verified summary.",
+    "industry": "Payments",
+    "function": "Sales",
+    "outcome": "serve-clients",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "merchant attrition",
+      "churn",
+      "early warning",
+      "net revenue retention",
+      "retention"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/merchant-attrition-1.jpg",
+        "alt": "At-risk merchant table with save-list priority"
+      },
+      {
+        "src": "assets/packs/merchant-attrition-2.jpg",
+        "alt": "Landing guide for the Merchant Attrition pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-merchant-attrition/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-merchant-attrition/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-merchant-attrition",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "merchant-risk",
+    "title": "Merchant Risk & Underwriting",
+    "summary": "Score and triage new merchant applications \u2014 approve, decline, or refer with a reserve recommendation \u2014 and cross-reference each category against real CFPB consumer-complaint intensity, with a verifier that flags any unsupported claim.",
+    "industry": "Payments",
+    "function": "Underwriting",
+    "outcome": "manage-risk",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "merchant underwriting",
+      "risk scoring",
+      "reserves",
+      "CFPB complaints",
+      "onboarding"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/merchant-risk-1.jpg",
+        "alt": "Underwriting table by category and credit tier with a CFPB benchmark"
+      },
+      {
+        "src": "assets/packs/merchant-risk-2.jpg",
+        "alt": "Landing guide for the Merchant Risk pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-merchant-risk/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-merchant-risk/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-merchant-risk",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
+  },
+  {
+    "id": "site-selection",
+    "title": "Geographic Expansion & Site Selection",
+    "summary": "Rank metros and merchant categories by white-space opportunity, blending real US Census category demand with portfolio coverage to find where to expand next, with a grounded, verified recommendation.",
+    "industry": "Payments",
+    "function": "Sales",
+    "outcome": "serve-clients",
+    "features": [
+      "Cortex Agents",
+      "Cortex Analyst",
+      "Semantic Views",
+      "Cortex AI_COMPLETE",
+      "Streamlit in Snowflake",
+      "Snowflake SQL"
+    ],
+    "tags": [
+      "site selection",
+      "expansion",
+      "white space",
+      "market penetration",
+      "geography"
+    ],
+    "setup": "local",
+    "images": [
+      {
+        "src": "assets/packs/site-selection-1.jpg",
+        "alt": "Ranked metro x category white-space table"
+      },
+      {
+        "src": "assets/packs/site-selection-2.jpg",
+        "alt": "Landing guide for the Site Selection pack"
+      }
+    ],
+    "pagesUrl": "https://sfc-gh-jsoliz.github.io/sfguide-site-selection/",
+    "demoUrl": "https://sfc-gh-jsoliz.github.io/sfguide-site-selection/try/",
+    "repoUrl": "https://github.com/sfc-gh-jsoliz/sfguide-site-selection",
+    "author": "Javier Soliz",
+    "updated": "2026-11"
   }
 ]
