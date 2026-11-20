@@ -455,7 +455,7 @@
   {
     "id": "cross-border-fx",
     "title": "Cross-Border & FX",
-    "summary": "Analyze cross-border corridor performance \u2014 volume, FX margin, and PnL by currency pair \u2014 with a grounded, verified summary. The demo ships synthetic FX; connect a paid FX feed to go live.",
+    "summary": "Analyze cross-border corridor performance \u2014 volume, FX margin, and PnL by currency pair \u2014 with a grounded, verified summary. The example ships synthetic FX; connect a paid FX feed to go live.",
     "industry": "Payments",
     "function": "Finance",
     "outcome": "manage-risk",
